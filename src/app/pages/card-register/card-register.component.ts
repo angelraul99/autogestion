@@ -15,32 +15,33 @@ export class CardRegisterComponent implements OnInit {
 
 
 card: cardmodel= new cardmodel();
-datacard: cardmodel[]= [
+datacard: cardmodel[]=[
   {
-    cardtitul :"TITULO 1",
+    cardtitul :"TITUL",
     descri: "descripcion",
     boton: "1",
-    il: "https://images8.alphacoders.com/104/1042296.jpg"
+    il: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1200px-Flag_of_Mexico.svg.png"
   },
   {
     cardtitul :"TITULO2",
     descri: "descripcion2",
     boton: "2",
-    il: "https://images6.alphacoders.com/470/470300.jpg"
+    il: "https://cnnespanol.cnn.com/wp-content/uploads/2022/06/220616181614-mexico-azteca-stadium-deportes-full-169.jpg?quality=100&strip=info&w=384&h=216&crop=1"
   },
   {
     cardtitul :"TITULO3",
     descri: "descripcion3",
     boton: "3",
-    il: "https://images5.alphacoders.com/518/518518.jpg"
+    il: "https://www.bakermckenzie.com/-/media/images/locations/mexico.jpg?sc_lang=es"
   },
   {
     cardtitul :"TITULO4",
     descri: "descripcion4",
     boton: "4",
-    il: "https://images2.alphacoders.com/902/902988.jpg"
+    il: "https://images.ecestaticos.com/kaRXwWE2utowBNN87J18tgBKhLY=/0x0:2272x1406/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fd2f%2F111%2Fcab%2Fd2f111cab586d774bb2e32c3cd1a2122.jpg"
   }
 ]
+
 
 addcard(){
   console.log(this.card);
